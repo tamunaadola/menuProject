@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>main-task</title>
+</head>
+
+<body>
+    <header class="main_header">
+        <nav class="navbar">
+            <div calss="letter">
+                <a href="">gourmet au catering</a>
+            </div>
+            <div class="allabout_page spacing">
+                <a class="back" href="#about_content">about</a>
+                <a href="#about_menu">menu</a>
+                <a href="#about_contact">contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="main_section">
+        <div class="burger-box">
+
+            <div id="bar" class="slide">
+                <img class="img_slides" id="mainImg" src="" alt="">
+            </div>
+
+            <h2 class="burger_title">le catering</h2>
+        </div>
+    </section>
+
+    <section class="second_section">
+        <div class="second_box">
+            <div>
+                <img class="second_img" src="./image/tablesetting2.jpeg" alt="">
+            </div>
+            <div id="about_content" class="second_text_box">
+                <h3 class="catering_title">about catering </h3>
+                <h4 class="min_title">Tradition since 1889</h4>
+                <p class="catering_paragraph bold_text">The Catering was founded in blabla by Mr. Smith in lorem ipsum
+                    dolor sit amet,
+                    consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore
+                    eu fugiat nulla pariatur.We only use <span class="background_word">seasonal</span> ingredients.
+                </p>
+                <p class="catering_paragraph">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit
+                    anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about_menu" class="menu_section">
+        <div class="menu_box">
+            <div class="menu_text_box">
+                <h3 class="menu_title">our menu</h3>
+                <div class="bread_box">
+                    <h4 class="bread_title">bread basket </h4>
+                    <p class="bread_p">Assortment of fresh baked fruit breads and muffins 5.50</p>
+                </div>
+                <div>
+                    <h4 class="bread_title">honey almond granola with fruits </h4>
+                    <p class="bread_p">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00 </p>
+                </div>
+                <div>
+                    <h4 class="bread_title">belgian waffle </h4>
+                    <p class="bread_p">Vanilla flavored batter with malted flour 7.50</p>
+                </div>
+                <div>
+                    <h4 class="bread_title">scrambled eggs </h4>
+                    <p class="bread_p">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p>
+                </div>
+                <div>
+                    <h4 class="bread_title">blueberry pancakes </h4>
+                    <p class="bread_p">With syrup, butter and lots of berries 8.50</p>
+                </div>
+            </div>
+            <div>
+                <img class="second_img" src="./image/tablesetting.jpeg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="about_contact" class="contact_section">
+        <div class="contact_content">
+            <h3 class="contact_title">contact</h3>
+            <p class="contact_p">
+                We offer full-service catering for any event, large or small. We understand your
+                needs and we will cater the food to satisfy the biggerst criteria of them all,
+                both look and taste. Do not hesitate to contact us.
+            </p>
+            <p class="catering_service">Catering Service, 42nd Living St, 43043 New York, NY</p>
+            <p>
+                You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can
+                send us a message here:
+            </p>
+            <form action="">
+                <div class="one_input">
+                    <input class="input_size" type="name" placeholder="Name" required>
+                </div>
+                <div>
+                    <input class="input_size" type="number" name="age" required>
+                </div>
+                <div>
+                    <!-- <input  class="input_size" type="date" name="date" required>
+                    <input type="time" > -->
+                    <input class="input_size" type="datetime-local" name="meeting-time" value="2020-11-16T20:00"
+                        min="2020-06-07T00:00" max="2023-11-16T00:00" required>
+                </div>
+                <div>
+                    <input class="input_size" type="text" placeholder="Message \ Special Requirements" required>
+                </div>
+                <!-- <button class="button" type="button">send message</button> -->
+                <input class="button" type="submit" value="send message">
+            </form>
+            <!-- Trigger/Open The Modal -->
+            <button id="openButton" class="open_btn">submit</button>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>Powered by <a class="underline" href="https://www.w3schools.com/w3css/default.asp">w3.css</a></p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
